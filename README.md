@@ -1,0 +1,1 @@
+# mintmaker-config
