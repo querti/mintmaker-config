@@ -11,7 +11,7 @@
     "requireConfig": "optional",
     "platformCommit": true,
     "autodiscover": false,
-    "enabledManagers": ["tekton", "dockerfile"],
+    "enabledManagers": ["tekton"],
     "lockFileMaintenance": {
       "enabled": true,
       "recreateWhen": "always",
