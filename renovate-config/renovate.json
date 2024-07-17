@@ -4,14 +4,14 @@
       "config:recommended",
       ":gitSignOff",
       ":disableDependencyDashboard",
-      "local>konflux-ci/mintmaker-config//renovate-config/tekton-config"
+      "github>querti/mintmaker-config//renovate-config/tekton-config-new"
     ],
     "ignorePresets": [":dependencyDashboard"],
     "onboarding": false,
     "requireConfig": "optional",
     "platformCommit": true,
     "autodiscover": false,
-    "enabledManagers": ["tekton", "dockerfile", "rpm"],
+    "enabledManagers": ["tekton", "dockerfile"],
     "lockFileMaintenance": {
       "enabled": true,
       "recreateWhen": "always",
